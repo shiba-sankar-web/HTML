@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>row span</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 2px solid violet;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>cell that spans two rows</h1>
+    <p></p>
+    <table style="width: 100%;">
+        <h1>cell that spans two columns</h1>
+        <p></p>
+        <table style="width: 100%;">
+            <tr>
+                <th>name</th>
+                <td>samrat</td>
+
+            </tr>
+
+            <tr>
+                <th rowspan="2">telephone</th>
+                <td>123456789</td>
+            </tr>
+
+            <tr>
+                <td>123456789</td>
+            </tr>
+
+
+        </table>
+</body>
+
+</html>

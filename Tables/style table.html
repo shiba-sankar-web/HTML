@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style</title>
+    <style>
+        table {
+            width: 100%;
+        }
+        
+        table,
+        th,
+        td {
+            border: 2px solid blue;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            text-align: left;
+            padding: 15px;
+        }
+        
+        #sam tr:nth-child(even) {
+            background-color: palegreen;
+        }
+        
+        #sam tr:nth-child(odd) {
+            background-color: cornsilk;
+        }
+        
+        #sam th {
+            background-color: whitesmoke;
+            color: black;
+        }
+    </style>
+</head>
+
+<body style="background-color: aqua;">
+    <h1></h1>
+    <p></p>
+    <table id="sam">
+        <caption style="background-color:  tomato; font-size: 40px;">monthly savings</caption>
+        <tr>
+            <th>month</th>
+            <td>samrat</td>
+            <td>arvind</td>
+            <td>vipin</td>
+        </tr>
+        <tr>
+            <th>savings</th>
+            <td>$200</td>
+            <td>$300</td>
+            <td>$255</td>
+        </tr>
+        <tr>
+            <th>month</th>
+            <td>january</td>
+            <td>may</td>
+            <td>march</td>
+        </tr>
+        <tr>
+            <th>age</th>
+            <td>23</td>
+            <td>24</td>
+            <td>26</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

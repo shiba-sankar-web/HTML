@@ -1,0 +1,10 @@
+.simpletable table {
+    width: 70%;
+}
+
+.tableborder table,
+td,
+th {
+    border: 2px solid blue;
+    color: red;
+}
